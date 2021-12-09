@@ -9,8 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                Color(white: 0.8)
+                    .edgesIgnoringSafeArea(.bottom)
+                VStack {
+                    Text("This is Test.")
+                }
+            }
+            .font(.system(size: 30, weight: .regular, design: .monospaced))
+            .navigationTitle("KYボード V1.0")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
