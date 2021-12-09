@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D7A2B6727624F3A00EDF4EF /* KYDOC2021App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A2B6627624F3A00EDF4EF /* KYDOC2021App.swift */; };
+		0D7A2B6927624F3A00EDF4EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A2B6827624F3A00EDF4EF /* ContentView.swift */; };
+		0D7A2B6B27624F3C00EDF4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A2B6A27624F3C00EDF4EF /* Assets.xcassets */; };
+		0D7A2B6E27624F3C00EDF4EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7A2B6D27624F3C00EDF4EF /* Preview Assets.xcassets */; };
+		0D7A2B7827624F3C00EDF4EF /* KYDOC2021Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A2B7727624F3C00EDF4EF /* KYDOC2021Tests.swift */; };
+		0D7A2B8227624F3C00EDF4EF /* KYDOC2021UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A2B8127624F3C00EDF4EF /* KYDOC2021UITests.swift */; };
+		0D7A2B8427624F3C00EDF4EF /* KYDOC2021UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7A2B8327624F3C00EDF4EF /* KYDOC2021UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D7A2B7427624F3C00EDF4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7A2B5B27624F3A00EDF4EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7A2B6227624F3A00EDF4EF;
+			remoteInfo = KYDOC2021;
+		};
+		0D7A2B7E27624F3C00EDF4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D7A2B5B27624F3A00EDF4EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7A2B6227624F3A00EDF4EF;
+			remoteInfo = KYDOC2021;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7A2B6327624F3A00EDF4EF /* KYDOC2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYDOC2021.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7A2B6627624F3A00EDF4EF /* KYDOC2021App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDOC2021App.swift; sourceTree = "<group>"; };
+		0D7A2B6827624F3A00EDF4EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D7A2B6A27624F3C00EDF4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D7A2B6D27624F3C00EDF4EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D7A2B7327624F3C00EDF4EF /* KYDOC2021Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDOC2021Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7A2B7727624F3C00EDF4EF /* KYDOC2021Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDOC2021Tests.swift; sourceTree = "<group>"; };
+		0D7A2B7D27624F3C00EDF4EF /* KYDOC2021UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDOC2021UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D7A2B8127624F3C00EDF4EF /* KYDOC2021UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDOC2021UITests.swift; sourceTree = "<group>"; };
+		0D7A2B8327624F3C00EDF4EF /* KYDOC2021UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYDOC2021UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D7A2B6027624F3A00EDF4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B7027624F3C00EDF4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B7A27624F3C00EDF4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7A2B5A27624F3A00EDF4EF = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B6527624F3A00EDF4EF /* KYDOC2021 */,
+				0D7A2B7627624F3C00EDF4EF /* KYDOC2021Tests */,
+				0D7A2B8027624F3C00EDF4EF /* KYDOC2021UITests */,
+				0D7A2B6427624F3A00EDF4EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D7A2B6427624F3A00EDF4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B6327624F3A00EDF4EF /* KYDOC2021.app */,
+				0D7A2B7327624F3C00EDF4EF /* KYDOC2021Tests.xctest */,
+				0D7A2B7D27624F3C00EDF4EF /* KYDOC2021UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D7A2B6527624F3A00EDF4EF /* KYDOC2021 */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B6627624F3A00EDF4EF /* KYDOC2021App.swift */,
+				0D7A2B6827624F3A00EDF4EF /* ContentView.swift */,
+				0D7A2B6A27624F3C00EDF4EF /* Assets.xcassets */,
+				0D7A2B6C27624F3C00EDF4EF /* Preview Content */,
+			);
+			path = KYDOC2021;
+			sourceTree = "<group>";
+		};
+		0D7A2B6C27624F3C00EDF4EF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B6D27624F3C00EDF4EF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D7A2B7627624F3C00EDF4EF /* KYDOC2021Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B7727624F3C00EDF4EF /* KYDOC2021Tests.swift */,
+			);
+			path = KYDOC2021Tests;
+			sourceTree = "<group>";
+		};
+		0D7A2B8027624F3C00EDF4EF /* KYDOC2021UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D7A2B8127624F3C00EDF4EF /* KYDOC2021UITests.swift */,
+				0D7A2B8327624F3C00EDF4EF /* KYDOC2021UITestsLaunchTests.swift */,
+			);
+			path = KYDOC2021UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D7A2B6227624F3A00EDF4EF /* KYDOC2021 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7A2B8727624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021" */;
+			buildPhases = (
+				0D7A2B5F27624F3A00EDF4EF /* Sources */,
+				0D7A2B6027624F3A00EDF4EF /* Frameworks */,
+				0D7A2B6127624F3A00EDF4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDOC2021;
+			productName = KYDOC2021;
+			productReference = 0D7A2B6327624F3A00EDF4EF /* KYDOC2021.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D7A2B7227624F3C00EDF4EF /* KYDOC2021Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7A2B8A27624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021Tests" */;
+			buildPhases = (
+				0D7A2B6F27624F3C00EDF4EF /* Sources */,
+				0D7A2B7027624F3C00EDF4EF /* Frameworks */,
+				0D7A2B7127624F3C00EDF4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7A2B7527624F3C00EDF4EF /* PBXTargetDependency */,
+			);
+			name = KYDOC2021Tests;
+			productName = KYDOC2021Tests;
+			productReference = 0D7A2B7327624F3C00EDF4EF /* KYDOC2021Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D7A2B7C27624F3C00EDF4EF /* KYDOC2021UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7A2B8D27624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021UITests" */;
+			buildPhases = (
+				0D7A2B7927624F3C00EDF4EF /* Sources */,
+				0D7A2B7A27624F3C00EDF4EF /* Frameworks */,
+				0D7A2B7B27624F3C00EDF4EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D7A2B7F27624F3C00EDF4EF /* PBXTargetDependency */,
+			);
+			name = KYDOC2021UITests;
+			productName = KYDOC2021UITests;
+			productReference = 0D7A2B7D27624F3C00EDF4EF /* KYDOC2021UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D7A2B5B27624F3A00EDF4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0D7A2B6227624F3A00EDF4EF = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					0D7A2B7227624F3C00EDF4EF = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 0D7A2B6227624F3A00EDF4EF;
+					};
+					0D7A2B7C27624F3C00EDF4EF = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 0D7A2B6227624F3A00EDF4EF;
+					};
+				};
+			};
+			buildConfigurationList = 0D7A2B5E27624F3A00EDF4EF /* Build configuration list for PBXProject "KYDOC2021" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D7A2B5A27624F3A00EDF4EF;
+			productRefGroup = 0D7A2B6427624F3A00EDF4EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7A2B6227624F3A00EDF4EF /* KYDOC2021 */,
+				0D7A2B7227624F3C00EDF4EF /* KYDOC2021Tests */,
+				0D7A2B7C27624F3C00EDF4EF /* KYDOC2021UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D7A2B6127624F3A00EDF4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A2B6E27624F3C00EDF4EF /* Preview Assets.xcassets in Resources */,
+				0D7A2B6B27624F3C00EDF4EF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B7127624F3C00EDF4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B7B27624F3C00EDF4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D7A2B5F27624F3A00EDF4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A2B6927624F3A00EDF4EF /* ContentView.swift in Sources */,
+				0D7A2B6727624F3A00EDF4EF /* KYDOC2021App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B6F27624F3C00EDF4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A2B7827624F3C00EDF4EF /* KYDOC2021Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D7A2B7927624F3C00EDF4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D7A2B8427624F3C00EDF4EF /* KYDOC2021UITestsLaunchTests.swift in Sources */,
+				0D7A2B8227624F3C00EDF4EF /* KYDOC2021UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D7A2B7527624F3C00EDF4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7A2B6227624F3A00EDF4EF /* KYDOC2021 */;
+			targetProxy = 0D7A2B7427624F3C00EDF4EF /* PBXContainerItemProxy */;
+		};
+		0D7A2B7F27624F3C00EDF4EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D7A2B6227624F3A00EDF4EF /* KYDOC2021 */;
+			targetProxy = 0D7A2B7E27624F3C00EDF4EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D7A2B8527624F3C00EDF4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D7A2B8627624F3C00EDF4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D7A2B8827624F3C00EDF4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KYDOC2021/Preview Content\"";
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0D7A2B8927624F3C00EDF4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KYDOC2021/Preview Content\"";
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0D7A2B8B27624F3C00EDF4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDOC2021.app/KYDOC2021";
+			};
+			name = Debug;
+		};
+		0D7A2B8C27624F3C00EDF4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDOC2021.app/KYDOC2021";
+			};
+			name = Release;
+		};
+		0D7A2B8E27624F3C00EDF4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDOC2021;
+			};
+			name = Debug;
+		};
+		0D7A2B8F27624F3C00EDF4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = EYSYK49KTW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.goemon.KYDOC2021UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDOC2021;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D7A2B5E27624F3A00EDF4EF /* Build configuration list for PBXProject "KYDOC2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A2B8527624F3C00EDF4EF /* Debug */,
+				0D7A2B8627624F3C00EDF4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7A2B8727624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A2B8827624F3C00EDF4EF /* Debug */,
+				0D7A2B8927624F3C00EDF4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7A2B8A27624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A2B8B27624F3C00EDF4EF /* Debug */,
+				0D7A2B8C27624F3C00EDF4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D7A2B8D27624F3C00EDF4EF /* Build configuration list for PBXNativeTarget "KYDOC2021UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D7A2B8E27624F3C00EDF4EF /* Debug */,
+				0D7A2B8F27624F3C00EDF4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D7A2B5B27624F3A00EDF4EF /* Project object */;
+}
