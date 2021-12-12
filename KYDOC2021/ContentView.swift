@@ -54,6 +54,7 @@ struct ContentView: View {
             .navigationTitle("KYボード V1.0")
             .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
